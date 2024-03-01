@@ -1,0 +1,23 @@
+.container{
+    display: flex;
+    height: 400px;
+    width: 325px;
+    border: 1px solid black;
+    flex-wrap: wrap;
+}
+#display{
+    height:100px;
+    width: 324px;
+    border: 1px solid black;
+    font-size: 70px;
+    text-align: right;
+    word-wrap: break-word;
+}
+button{
+    height:50px;
+    width: 75px;
+    border: 1px solid black;
+    line-height: 40px;
+    text-align: center;
+    vertical-align: center;
+}
