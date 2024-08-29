@@ -33,6 +33,8 @@ function operate(left,operator,right){
 function display(){
     var screen = document.getElementById("display")
     var num = document.getElementsByClassName("number")
+    var clear = document.getElementById("clear")
+    clear.addEventListener("click", function(){screen.innerHTML = "", num1 = "", num2 = ""});
     for(var i = 0; i < num.length; i++){
         num[i].addEventListener("click", function(){ if(num1.length<9){num1 += this.innerHTML};
          screen.innerHTML = num1;
